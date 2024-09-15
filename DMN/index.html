@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lili</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icon.png" type="image/x-icon">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="envelope-wrapper">
+                <div class="envelope">
+                    <div class="letter">
+                        <div class="text">
+                            <strong>Hola bonita</strong>
+                            <p>No puedo verte en estos momentos, así que te mando esta
+                                cartita digital en donde quiero decirte lo mucho que te 
+                                amo y lo que significas para mi, también pedirte de nuevo
+                                perdón por haberte fallado)):                 
+                                te amo Lili, significas mucho para mi.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="heart"></div>
+            </div>
+        </div>
+    </section>
+    <div class="button"></div>
+        <button class="botones">
+            <a href="main.html" style="color: #fff;">te preparé algo...</a>
+        </button>
+    </div>
+    </section>
+    <script>
+        const envelope= document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
